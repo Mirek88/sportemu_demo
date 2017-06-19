@@ -1,0 +1,79 @@
+/* enable absolute positioning */
+.inner-addon { 
+    position: relative; 
+    display: inline-block;
+}
+
+/* style icon */
+.inner-addon .glyphicon {
+  position: absolute;
+  padding: 10px;
+  pointer-events: none;
+}
+
+/* align icon */
+.left-addon .glyphicon  { left:  0px;}
+
+/* add padding  */
+.left-addon input  { padding-left:  30px; }
+
+.container-fluid {
+	background-color: #AAAAAA;
+	padding-top: 65px;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+}
+
+.blog-section {
+	width: 100%;
+}
+.top-picks a {
+	color: inherit;
+}
+.blog-image {
+	display: block;
+	position: relative;
+	height: 450px;
+	background-image: url("../img/blog_baseball.jpg");
+	background-size: cover;
+}
+.blog-post {
+	height: 200px;
+	text-align: center;
+	border: 1px solid black;
+	margin-top: 15px;
+	background-image: url("../img/blog_baseball.jpg");
+	background-size: cover;
+}
+.blog-read {
+	margin-top: 10px;
+	border: 1px solid black;
+	border-radius: 5%;
+	padding: 14px 22px;
+}
+
+footer {
+	background-color: #42ADE2;
+	color: white;
+}
+footer a {
+	color: white;
+}
+.footer-signup {
+	text-align: center;
+}
+.footer-log {
+	text-align: center;
+}
+.footer-sign, .footer-login {
+	border: 1px solid black;
+	margin-top: 25px;
+	padding: 14px 22px;
+	border-radius: 5%;
+}
+hr {
+	width: 90%;
+}
